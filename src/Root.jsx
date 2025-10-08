@@ -6,15 +6,15 @@ import './App.css'
 export default function Root() {
   return (
     <div className='inter-font'>
-      <div className='h-20 '>
+      <div className='h-[66px]'>
         <Navbar></Navbar>
       </div>
       {/* daynamic content*/}
-      <div className=' z-30 max-w-[1400px] mx-auto px-10 py-10'>
+      <div className='z-30 bg-[#f9f9f9] '>
         <Outlet />
       </div>
 
-      <div>
+      <div  className='border-2'>
         <Footer></Footer>
       </div>
 

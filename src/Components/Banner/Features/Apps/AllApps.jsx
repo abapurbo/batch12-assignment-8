@@ -6,7 +6,7 @@ import { IoIosSearch } from 'react-icons/io'
 export default function AllApps() {
     const apps = useLoaderData()
     return (
-        <div>
+        <div className='mx-auto max-w-[1400px] px-10 py-10'>
             <div>
                 <h1 className='text-[#001931] text-center text-[48px] font-bold'>Our All Applications</h1>
                 <p className='text-xl text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>

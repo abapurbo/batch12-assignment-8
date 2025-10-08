@@ -4,10 +4,10 @@ import { IoMdStar } from 'react-icons/io'
 import { RiDownload2Fill } from 'react-icons/ri'
 
 export default function AppCard({ app }) {
-    const { image, title, downloads, ratingAvg } = app || {}
+    const {id, image, title, downloads, ratingAvg } = app || {}
     return (
         <div>
-            <Link to={''} className="card cursor-pointer bg-base-100 w-[100%]  max-w-[346px] h-[350px]  shadow-2xl p-3.5 transition hover:scale-95 duration-500">
+            <Link to={`/details/${id}`} className="card cursor-pointer bg-base-100 w-[100%]  max-w-[346px] h-[350px]  shadow-xl p-3.5 transition hover:scale-95 duration-500">
                 <figure>
                     <img className='rounded-[10px] h-[200px] max-h-[450px] object-container'
                         src='https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp'

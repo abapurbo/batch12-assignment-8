@@ -19,7 +19,7 @@ export default function Navbar() {
                             <NavLink to={''} className={({isActive})=>isActive ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text font-semibold underline decoration-[#9F62F2] underline-offset-4':''}>Installation</NavLink>
                         </div>
                     </div>
-                    <Link to='/' className="flex items-center font-bold gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text"><img width='40px' height='40px' src="./src/assets/logo.png" alt="logo" />HERO.IO</Link>
+                    <Link to='/' className="flex items-center font-bold gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text"><img width='40px' height='40px' src="https://i.ibb.co.com/1Jdj50b3/logo.png" alt="logo" />HERO.IO</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <div className="menu menu-horizontal px-1 space-x-5 text-[16px] font-medium">

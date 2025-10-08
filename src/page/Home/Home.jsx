@@ -26,10 +26,10 @@ export default function Home() {
       <div>
         <h1 className='text-center text-[#001931] font-bold text-[46px]'>Trending Apps</h1>
         <p className='text-[#627382] text-xl text-center'>Explore All Trending Apps on the Market developed by us</p>
-        <div className='mt-10 '>
+        <div className='mt-10 max-w-[1400px] mx-auto px-10 py-10'>
           <Apps cards={cards}></Apps>
-          <div className='text-center mt-10'>
-            <Link to="" className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[#ffffff] py-3.5 px-[39px] rounded-[4px] font-semibold text-[16px] transition hover:scale-95 cursor-pointer duration-700 '>Show All</Link>
+          <div className='text-center my-10'>
+            <Link to="/allApps" className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[#ffffff] py-3.5 px-[39px] rounded-[4px] font-semibold text-[16px] transition hover:scale-95 cursor-pointer duration-700 '>Show All</Link>
 
           </div>
         </div>
