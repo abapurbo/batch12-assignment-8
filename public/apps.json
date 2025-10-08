@@ -1,0 +1,512 @@
+[
+  {
+    "image": "https://forestapp.cc/assets/images/logo.png",
+    "title": "Forest: Focus For Productivity",
+    "companyName": "Seekrtech",
+    "id": 1,
+    "description": "Forest helps users stay focused by planting virtual trees while they work. Leaving the app before the timer ends kills the tree. Over time, users grow a forest of focus, reinforcing habit formation and minimizing distractions.",
+    "size": 25,
+    "reviews": 1200000,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 15000
+      },
+      {
+        "name": "2 star",
+        "count": 8000
+      },
+      {
+        "name": "3 star",
+        "count": 25000
+      },
+      {
+        "name": "4 star",
+        "count": 300000
+      },
+      {
+        "name": "5 star",
+        "count": 870000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Todoist_logo.png",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "id": 2,
+    "description": "Todoist is a full-featured to-do list and task manager that supports projects, subtasks, labels, reminders, and collaborative task sharing. It syncs across devices and integrates with many tools to streamline workflows.",
+    "size": 30,
+    "reviews": 850000,
+    "ratingAvg": 4.7,
+    "downloads": "15M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 10000
+      },
+      {
+        "name": "2 star",
+        "count": 7000
+      },
+      {
+        "name": "3 star",
+        "count": 22000
+      },
+      {
+        "name": "4 star",
+        "count": 270000
+      },
+      {
+        "name": "5 star",
+        "count": 790000
+      }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2997/2997933.png",
+    "title": "Pomodoro Timer",
+    "companyName": "Focus Keeper",
+    "id": 3,
+    "description": "Pomodoro Timer uses the Pomodoro Technique (25-minute work intervals followed by short breaks) to boost concentration and stamina. It helps users manage time, prevent burnout, and build consistent work habits.",
+    "size": 15,
+    "reviews": 500000,
+    "ratingAvg": 4.6,
+    "downloads": "6M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 8000
+      },
+      {
+        "name": "2 star",
+        "count": 5000
+      },
+      {
+        "name": "3 star",
+        "count": 15000
+      },
+      {
+        "name": "4 star",
+        "count": 120000
+      },
+      {
+        "name": "5 star",
+        "count": 455000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Evernote_logo.svg",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 4,
+    "description": "Evernote is a cross-platform note-taking app where you can store text, images, audio, attachments, and web clippings. It also offers notebooks, tags, search, and sync across devices, making it a versatile tool for organizing information.",
+    "size": 40,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": "18M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 25000
+      },
+      {
+        "name": "2 star",
+        "count": 15000
+      },
+      {
+        "name": "3 star",
+        "count": 45000
+      },
+      {
+        "name": "4 star",
+        "count": 450000
+      },
+      {
+        "name": "5 star",
+        "count": 1450000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Microsoft_To_Do_icon.png",
+    "title": "Microsoft To Do",
+    "companyName": "Microsoft",
+    "id": 5,
+    "description": "Microsoft To Do helps you plan your day with tasks, reminders, due dates, and color-coded lists. It integrates with Microsoft services like Outlook and is ideal for personal and professional task management.",
+    "size": 28,
+    "reviews": 1000000,
+    "ratingAvg": 4.5,
+    "downloads": "20M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 12000
+      },
+      {
+        "name": "2 star",
+        "count": 9000
+      },
+      {
+        "name": "3 star",
+        "count": 30000
+      },
+      {
+        "name": "4 star",
+        "count": 220000
+      },
+      {
+        "name": "5 star",
+        "count": 720000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 6,
+    "description": "Notion is an all-in-one workspace combining notes, databases, wikis, tasks, and calendars. It allows deep customization, templating, and collaboration, making it perfect for both individuals and teams to manage projects and content.",
+    "size": 50,
+    "reviews": 1700000,
+    "ratingAvg": 4.7,
+    "downloads": "22M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 15000
+      },
+      {
+        "name": "2 star",
+        "count": 7000
+      },
+      {
+        "name": "3 star",
+        "count": 20000
+      },
+      {
+        "name": "4 star",
+        "count": 280000
+      },
+      {
+        "name": "5 star",
+        "count": 1320000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Google_Keep_icon.svg",
+    "title": "Google Keep",
+    "companyName": "Google LLC",
+    "id": 7,
+    "description": "Google Keep is a lightweight note-taking application that supports voice notes, checklists, drawing, and reminders. It syncs with Google services and is great for capturing quick thoughts and reminders on the go.",
+    "size": 20,
+    "reviews": 900000,
+    "ratingAvg": 4.3,
+    "downloads": "16M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 14000
+      },
+      {
+        "name": "2 star",
+        "count": 10000
+      },
+      {
+        "name": "3 star",
+        "count": 35000
+      },
+      {
+        "name": "4 star",
+        "count": 180000
+      },
+      {
+        "name": "5 star",
+        "count": 660000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Slack_icon_2019.svg",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 8,
+    "description": "Slack is a collaboration hub for teams offering channels, direct messages, file sharing, integrations, and searchable history. It's widely used to reduce email clutter and boost team productivity.",
+    "size": 60,
+    "reviews": 2200000,
+    "ratingAvg": 4.4,
+    "downloads": "25M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 20000
+      },
+      {
+        "name": "2 star",
+        "count": 12000
+      },
+      {
+        "name": "3 star",
+        "count": 45000
+      },
+      {
+        "name": "4 star",
+        "count": 500000
+      },
+      {
+        "name": "5 star",
+        "count": 1570000
+      }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3636/3636989.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 9,
+    "description": "Trello is a visual task and project management tool that uses boards, lists, and cards to help users organize and prioritize tasks in flexible ways. Collaboration and drag-and-drop make it highly intuitive.",
+    "size": 45,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": "24M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 16000
+      },
+      {
+        "name": "2 star",
+        "count": 11000
+      },
+      {
+        "name": "3 star",
+        "count": 38000
+      },
+      {
+        "name": "4 star",
+        "count": 400000
+      },
+      {
+        "name": "5 star",
+        "count": 1460000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Asana_logo.svg",
+    "title": "Asana",
+    "companyName": "Asana, Inc.",
+    "id": 10,
+    "description": "Asana is a powerful work management platform for teams and individuals. It helps users plan, organize, and track work across tasks, projects, and timelines with rich collaboration features.",
+    "size": 55,
+    "reviews": 1900000,
+    "ratingAvg": 4.6,
+    "downloads": "21M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 16000
+      },
+      {
+        "name": "2 star",
+        "count": 11000
+      },
+      {
+        "name": "3 star",
+        "count": 38000
+      },
+      {
+        "name": "4 star",
+        "count": 400000
+      },
+      {
+        "name": "5 star",
+        "count": 1460000
+      }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png",
+    "title": "ClickUp",
+    "companyName": "ClickUp",
+    "id": 11,
+    "description": "ClickUp is an all-in-one productivity platform combining tasks, docs, goals, and chat. It's designed to replace multiple tools by bringing teams’ work into one space with flexibility and customization.",
+    "size": 50,
+    "reviews": 1100000,
+    "ratingAvg": 4.5,
+    "downloads": "19M",
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 740000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Google_Calendar_icon_(2020).svg",
+    "title": "Google Calendar",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Google Calendar is a scheduling app where users can create, share, and manage events. It integrates with Gmail and other Google services, supports reminders, multiple calendars, and notification options.",
+    "size": 20,
+    "reviews": 950000,
+    "ratingAvg": 4.4,
+    "downloads": "17M",
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 190000 },
+      { "name": "5 star", "count": 670000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/RescueTime_logo.png",
+    "title": "RescueTime",
+    "companyName": "RescueTime Inc.",
+    "id": 13,
+    "description": "RescueTime tracks time spent on applications and websites, giving users detailed reports and tools to manage distractions and improve productivity habits.",
+    "size": 18,
+    "reviews": 300000,
+    "ratingAvg": 4.3,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 245000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1935/1935360.png",
+    "title": "Focus@Will",
+    "companyName": "Focus@Will Labs",
+    "id": 14,
+    "description": "Focus@Will provides music scientifically designed to improve focus and productivity, helping users stay attentive during work or study sessions.",
+    "size": 22,
+    "reviews": 120000,
+    "ratingAvg": 4.2,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 74000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/RescueTime_logo.svg",
+    "title": "Toggl Track",
+    "companyName": "Toggl",
+    "id": 15,
+    "description": "Toggl Track is a time tracking app designed to help freelancers and teams measure productivity, manage billable hours, and improve workflow efficiency.",
+    "size": 25,
+    "reviews": 400000,
+    "ratingAvg": 4.6,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 329000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2784/2784455.png",
+    "title": "Habitica",
+    "companyName": "HabitRPG, Inc.",
+    "id": 16,
+    "description": "Habitica gamifies your task management by turning daily habits and to-dos into RPG-style challenges, motivating users to improve productivity through rewards and social interaction.",
+    "size": 35,
+    "reviews": 600000,
+    "ratingAvg": 4.5,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 480000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3103/3103446.png",
+    "title": "Forest: Stay Focused",
+    "companyName": "Seekrtech",
+    "id": 17,
+    "description": "Forest helps users stay focused by planting virtual trees during work sessions. The app encourages mindfulness and limits distractions by rewarding uninterrupted focus.",
+    "size": 26,
+    "reviews": 1300000,
+    "ratingAvg": 4.7,
+    "downloads": "14M",
+    "ratings": [
+      { "name": "1 star", "count": 16000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 23000 },
+      { "name": "4 star", "count": 290000 },
+      { "name": "5 star", "count": 940000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/189/189792.png",
+    "title": "MindNode",
+    "companyName": "IdeasOnCanvas GmbH",
+    "id": 18,
+    "description": "MindNode is a mind-mapping app that helps users visually organize ideas and projects to improve creativity and productivity.",
+    "size": 30,
+    "reviews": 250000,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 204000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Focus_To-Do_Logo.png",
+    "title": "Focus To-Do",
+    "companyName": "Super Software",
+    "id": 19,
+    "description": "Focus To-Do combines Pomodoro timer with task management, helping users stay focused and organized throughout their day.",
+    "size": 27,
+    "reviews": 700000,
+    "ratingAvg": 4.5,
+    "downloads": "11M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 14000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 490000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/825/825489.png",
+    "title": "TimeTune",
+    "companyName": "TimeTune Apps",
+    "id": 20,
+    "description": "TimeTune offers routines and schedule management to help users optimize daily habits and maximize productivity.",
+    "size": 19,
+    "reviews": 320000,
+    "ratingAvg": 4.4,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  }
+]
