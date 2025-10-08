@@ -10,7 +10,7 @@ export default function Root() {
         <Navbar></Navbar>
       </div>
       {/* daynamic content*/}
-      <div className='h-[calc(100vh-80px)] z-30'>
+      <div className=' z-30'>
         <Outlet />
       </div>
 
