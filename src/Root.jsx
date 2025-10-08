@@ -14,7 +14,7 @@ export default function Root() {
         <Outlet />
       </div>
 
-      <div  className='border-2'>
+      <div>
         <Footer></Footer>
       </div>
 
