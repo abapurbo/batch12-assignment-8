@@ -6,7 +6,7 @@ export const AppContext = createContext({});
 
 export default function AuthContext({ children }) {
     const localApps = getStorageApps()
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
     const [installApps, setInstallApps] = useState([...localApps])
     // sucess toast 
     const notify = () => {

@@ -7,7 +7,16 @@ import { AppContext } from '../../../../context/AuthContext'
 export default function AllApps() {
     const apps = useLoaderData()
     const { isLoading, setIsLoading } = useContext(AppContext)
-    const [searchs, setSearch] = useState([...apps])
+    const [searchs, setSearch] = useState([])
+
+    useEffect(() => {
+        if (apps) {
+            setIsLoading(true);
+            setSearch(apps);
+            setIsLoading(false);
+        }
+    }, [apps]);
+
     const handleSearchApps = (e) => {
         const searchText = e.target.value;
         setIsLoading(true);
@@ -15,8 +24,8 @@ export default function AllApps() {
         setTimeout(() => {
             const searchApps = apps.filter(app => app?.title.toLowerCase().includes(searchText));
             setSearch(searchApps);
-            setIsLoading(false); // search complete
-        }, 300);
+            setIsLoading(false);
+        }, 200);
     }
     return (
         <div className='mx-auto max-w-[1400px] px-10 py-10'>
