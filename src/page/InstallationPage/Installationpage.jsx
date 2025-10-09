@@ -8,7 +8,6 @@ export default function Installationpage() {
   const { installApps } = useContext(AppContext)
   const [sortOrder, setSortOrder] = useState("Sort By Size");
   const [sortedApps, setSortedApps] = useState([...installApps])
-  console.log(sortedApps)
   //Apps size high to low size in the sort
   useEffect(() => {
     const localInstallApps = getStorageApps()

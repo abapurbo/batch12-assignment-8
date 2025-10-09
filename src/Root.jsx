@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react'
 export default function Root() {
   const [showSpinner, setShowSpinner] = useState(false);
   const navigation = useNavigation();
-  console.log(showSpinner)
+
   useEffect(() => {
     let timer;
     if (navigation.state === "loading") {
