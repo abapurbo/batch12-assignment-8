@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, Suspense, useEffect, useState } from 'react';
 import { addInstallApps, getStorageApps, uninstall } from '../utilites/InstallationLocalStorage';
 import { toast } from 'react-toastify';
 
@@ -6,6 +6,7 @@ export const AppContext = createContext({});
 
 export default function AuthContext({ children }) {
     const localApps = getStorageApps()
+    const [isLoading, setIsLoading] = useState(true);
     const [installApps, setInstallApps] = useState([...localApps])
     // sucess toast 
     const notify = () => {
@@ -42,9 +43,9 @@ export default function AuthContext({ children }) {
     }
     //unInstall app
     const handleUinstallApp = id => {
-        const localInstalData=getStorageApps()
+        const localInstalData = getStorageApps()
         uninstall(id)
-        const uninstallApp=localInstalData.filter(data=>data.id !== parseInt(id))
+        const uninstallApp = localInstalData.filter(data => data.id !== parseInt(id))
         setInstallApps([...uninstallApp])
         deleteApp()
     }
@@ -52,13 +53,15 @@ export default function AuthContext({ children }) {
     const authValue = {
         handleAddApps,
         installApps,
-        handleUinstallApp
+        handleUinstallApp,
+        isLoading,
+        setIsLoading
     };
 
     return (
-        <AppContext.Provider value={authValue}>
-            {children}
-        </AppContext.Provider>
+            <AppContext.Provider value={authValue}>
+                {children}
+            </AppContext.Provider>
     );
 }
 

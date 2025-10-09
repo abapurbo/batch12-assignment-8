@@ -1,20 +1,23 @@
-import React, { useState } from 'react'
+import React, { use, useContext, useEffect, useState } from 'react'
 import { useLoaderData } from 'react-router'
 import AppCard from './AppCard'
 import { IoIosSearch } from 'react-icons/io'
+import { AppContext } from '../../../../context/AuthContext'
 
 export default function AllApps() {
     const apps = useLoaderData()
+    const { isLoading, setIsLoading } = useContext(AppContext)
     const [searchs, setSearch] = useState([...apps])
-    console.log(searchs)
     const handleSearchApps = (e) => {
         const searchText = e.target.value;
+        setIsLoading(true);
 
-        const searchApps = apps.filter(app => app?.title.toLowerCase().includes(searchText))
-        setSearch(searchApps)
-
+        setTimeout(() => {
+            const searchApps = apps.filter(app => app?.title.toLowerCase().includes(searchText));
+            setSearch(searchApps);
+            setIsLoading(false); // search complete
+        }, 300);
     }
-
     return (
         <div className='mx-auto max-w-[1400px] px-10 py-10'>
             <div>
@@ -30,16 +33,25 @@ export default function AllApps() {
                 </fieldset>
             </div>
             <div className='grid grid-cols-4 gap-6 mt-4'>
-                {
-                    searchs.length > 0 ? searchs.map(app => (
-                        <AppCard key={app.id} app={app} />
-                    )) : (
-                        <div className='col-span-4 flex flex-col items-center justify-center h-60 '>
-                            <h1 className='text-xl text-[40px] font-semibold text-gray-500'>No Apps Found</h1>
-                            <p className='text-gray-400 text-xl mt-2'>Try searching with a different keyword.</p>
-                        </div>
-                    )
-                }
+
+                {isLoading ? (
+                    <div className='col-span-4 flex  w-[100%] items-center justify-center h-60'>
+                        <div className='text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
+                            className="w-20 h-20 animate-[spin_1s_linear_infinite]"
+                            src="../src/assets/logo.png"
+                            alt="Loading..."
+                        /><h1>Loading....</h1></div></div>
+                    </div>
+                ) : searchs.length > 0 ? (
+                    searchs.map(app => <AppCard key={app.id} app={app} />)
+                ) : (
+                    <div className='col-span-4 flex flex-col items-center justify-center h-60 '>
+                        <h1 className='text-xl text-[40px] font-semibold text-gray-500'>No Apps Found</h1>
+                        <p className='text-gray-400 text-xl mt-2'>Try searching with a different keyword.</p>
+                    </div>
+                )}
+
+
 
             </div>
         </div>
