@@ -1,20 +1,32 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { IoMdDownload } from 'react-icons/io'
 import { IoStar } from 'react-icons/io5'
 import { MdOutlineFileDownload } from 'react-icons/md'
 import { useLoaderData, useParams } from 'react-router'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, LabelList } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, } from 'recharts';
+import { AppContext } from '../../context/AuthContext'
+import { getStorageApps } from '../../utilites/InstallationLocalStorage'
 const data = [{ name: 'Page A', uv: 400, pv: 2400, amt: 2400 },]
 export default function Details() {
   const [currentApp, setCurrentApp] = useState({})
-  console.log(currentApp)
+  const { handleAddApps, installApps } = useContext(AppContext)
+  const [btnInActive, setBtnInActive] = useState(false)
   const { id } = useParams()
   const datas = useLoaderData()
+
   useEffect(() => {
     const DetailsApp = datas.find(data => data.id == id);
     setCurrentApp(DetailsApp)
 
   }, [])
+
+  useEffect(() => {
+    const checkApp = installApps.some(localApp => localApp.id == id);
+    if (checkApp) {
+      setBtnInActive(true)
+    }
+  }, [id,installApps]);
+
 
   const { image, ratingAvg, ratings, description, downloads, title, companyName, reviews, size } = currentApp
 
@@ -47,7 +59,15 @@ export default function Details() {
                 <p className='text-[#001931] text-[48px] font-extrabold'>{reviews / 1000}K</p>
               </div>
             </div>
-            <button className='bg-[#00D390] text-white text-xl font-semibold btn border-none'>Install Now ({size} MB)</button>
+            <button
+              disabled={btnInActive}
+              onClick={() => handleAddApps(currentApp)}
+              className={`bg-[#05db97] text-white text-xl font-semibold px-5 py-2 rounded-[6px] border-none disabled:bg-[#05db97]/60 disabled:text-white/90 disabled:cursor-not-allowed
+  `}
+            >
+              {btnInActive ? 'Installed' : `Install Now (${size} MB)`}
+            </button>
+
           </div>
 
         </div>

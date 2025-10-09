@@ -3,6 +3,7 @@ import Navbar from './layout/Navbar/Navbar'
 import { Outlet } from 'react-router'
 import Footer from './layout/Footer/Footer'
 import './App.css'
+import { ToastContainer } from 'react-toastify'
 export default function Root() {
   return (
     <div className='inter-font'>
@@ -17,7 +18,7 @@ export default function Root() {
       <div>
         <Footer></Footer>
       </div>
-
+      <ToastContainer />
     </div>
   )
 }
