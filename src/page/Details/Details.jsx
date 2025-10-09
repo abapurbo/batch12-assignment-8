@@ -25,7 +25,7 @@ export default function Details() {
     if (checkApp) {
       setBtnInActive(true)
     }
-  }, [id,installApps]);
+  }, [id, installApps]);
 
 
   const { image, ratingAvg, ratings, description, downloads, title, companyName, reviews, size } = currentApp
@@ -45,7 +45,7 @@ export default function Details() {
               <div className='flex flex-col justify-start items-start gap-2'>
                 <MdOutlineFileDownload className=' text-5xl text-[#54CF68]' />
                 <p className='text-[#001931] text-[16px]'>Downloads</p>
-                <h1 className='text-[#001931] text-[48px] font-extrabold'>{downloads}</h1>
+                <h1 className='text-[#001931] text-[48px] font-extrabold'>{downloads / 1000000}M</h1>
 
               </div>
               <div className='flex flex-col justify-start items-start gap-2'>

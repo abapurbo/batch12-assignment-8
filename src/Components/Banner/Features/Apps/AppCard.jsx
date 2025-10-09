@@ -20,7 +20,7 @@ export default function AppCard({ app }) {
                     <h2 className="card-title">{title}</h2>
                 </div>
                 <div className="card-actions justify-between mt-4 ">
-                    <button className='flex items-center flex-row gap-1 text-[16px] text-[#00D390] font-medium bg-[#F1F5E8] px-3 py-1 rounded-[4px]'><RiDownload2Fill /> {downloads}</button>
+                    <button className='flex items-center flex-row gap-1 text-[16px] text-[#00D390] font-medium bg-[#F1F5E8] px-3 py-1 rounded-[4px]'><RiDownload2Fill /> {downloads / 1000000}M</button>
                     <button className='flex items-center flex-row gap-1 text-[16px] text-[#FF8811] font-medium bg-[#FFF0E1] px-3 py-1 rounded-[4px]'><IoMdStar />{ratingAvg}</button>
                 </div>
 

@@ -9,7 +9,7 @@ export default function AuthContext({ children }) {
     const [installApps, setInstallApps] = useState([...localApps])
     // sucess toast 
     const notify = () => {
-        toast.success('Your App Successfuly install!', {
+        toast.success('Your App Successfuly Installed!', {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -21,7 +21,7 @@ export default function AuthContext({ children }) {
         });
     }
     const deleteApp = () => {
-        toast.success('Your App Successfuly Uninstall!', {
+        toast.success('Your App Successfyly  Uninstall!', {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,

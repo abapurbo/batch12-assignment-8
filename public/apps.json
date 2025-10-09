@@ -8,7 +8,7 @@
     "size": 85,
     "reviews": 1240000,
     "ratingAvg": 4.8,
-    "downloads": "10M",
+    "downloads": 10000000,
     "ratings": [
       { "name": "1 star", "count": 12400 },
       { "name": "2 star", "count": 12400 },
@@ -26,7 +26,7 @@
     "size": 42,
     "reviews": 670000,
     "ratingAvg": 4.6,
-    "downloads": "5M",
+    "downloads": 5000000,
     "ratings": [
       { "name": "1 star", "count": 6700 },
       { "name": "2 star", "count": 13400 },
@@ -44,7 +44,7 @@
     "size": 70,
     "reviews": 980000,
     "ratingAvg": 4.7,
-    "downloads": "9M",
+    "downloads": 9000000,
     "ratings": [
       { "name": "1 star", "count": 9800 },
       { "name": "2 star", "count": 19600 },
@@ -62,7 +62,7 @@
     "size": 36,
     "reviews": 240000,
     "ratingAvg": 4.9,
-    "downloads": "3M",
+    "downloads": 3000000,
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 1200 },
@@ -80,7 +80,7 @@
     "size": 64,
     "reviews": 340000,
     "ratingAvg": 4.5,
-    "downloads": "6M",
+    "downloads": 6000000,
     "ratings": [
       { "name": "1 star", "count": 3400 },
       { "name": "2 star", "count": 10200 },
@@ -98,7 +98,7 @@
     "size": 49,
     "reviews": 410000,
     "ratingAvg": 4.7,
-    "downloads": "8M",
+    "downloads": 8000000,
     "ratings": [
       { "name": "1 star", "count": 4100 },
       { "name": "2 star", "count": 12300 },
@@ -116,7 +116,7 @@
     "size": 75,
     "reviews": 870000,
     "ratingAvg": 4.8,
-    "downloads": "7M",
+    "downloads": 7000000,
     "ratings": [
       { "name": "1 star", "count": 8700 },
       { "name": "2 star", "count": 17400 },
@@ -134,7 +134,7 @@
     "size": 108,
     "reviews": 2200000,
     "ratingAvg": 4.6,
-    "downloads": "12M",
+    "downloads": 12000000,
     "ratings": [
       { "name": "1 star", "count": 22000 },
       { "name": "2 star", "count": 66000 },
@@ -152,7 +152,7 @@
     "size": 40,
     "reviews": 210000,
     "ratingAvg": 4.4,
-    "downloads": "5M",
+    "downloads": 5000000,
     "ratings": [
       { "name": "1 star", "count": 2100 },
       { "name": "2 star", "count": 4200 },
@@ -170,7 +170,7 @@
     "size": 60,
     "reviews": 330000,
     "ratingAvg": 4.7,
-    "downloads": "7M",
+    "downloads": 7000000,
     "ratings": [
       { "name": "1 star", "count": 3300 },
       { "name": "2 star", "count": 6600 },
@@ -188,7 +188,7 @@
     "size": 55,
     "reviews": 500000,
     "ratingAvg": 4.6,
-    "downloads": "4M",
+    "downloads": 4000000,
     "ratings": [
       { "name": "1 star", "count": 5000 },
       { "name": "2 star", "count": 10000 },
@@ -206,7 +206,7 @@
     "size": 50,
     "reviews": 320000,
     "ratingAvg": 4.5,
-    "downloads": "5M",
+    "downloads": 5000000,
     "ratings": [
       { "name": "1 star", "count": 3200 },
       { "name": "2 star", "count": 9600 },
@@ -214,8 +214,7 @@
       { "name": "4 star", "count": 96000 },
       { "name": "5 star", "count": 144000 }
     ]
-  }
-,
+  },
   {
     "image": "https://sleepwell.com/assets/sleeptracker_icon.png",
     "title": "SleepWell - Sleep Tracker",
@@ -225,7 +224,7 @@
     "size": 65,
     "reviews": 420000,
     "ratingAvg": 4.5,
-    "downloads": "4M",
+    "downloads": 4000000,
     "ratings": [
       { "name": "1 star", "count": 4200 },
       { "name": "2 star", "count": 12600 },
@@ -243,7 +242,7 @@
     "size": 48,
     "reviews": 310000,
     "ratingAvg": 4.6,
-    "downloads": "5M",
+    "downloads": 5000000,
     "ratings": [
       { "name": "1 star", "count": 3100 },
       { "name": "2 star", "count": 6200 },
@@ -261,7 +260,7 @@
     "size": 52,
     "reviews": 290000,
     "ratingAvg": 4.7,
-    "downloads": "4M",
+    "downloads": 4000000,
     "ratings": [
       { "name": "1 star", "count": 2900 },
       { "name": "2 star", "count": 5800 },
@@ -279,7 +278,7 @@
     "size": 57,
     "reviews": 360000,
     "ratingAvg": 4.4,
-    "downloads": "5M",
+    "downloads": 5000000,
     "ratings": [
       { "name": "1 star", "count": 3600 },
       { "name": "2 star", "count": 10800 },
@@ -297,7 +296,7 @@
     "size": 43,
     "reviews": 270000,
     "ratingAvg": 4.5,
-    "downloads": "4M",
+    "downloads": 4000000,
     "ratings": [
       { "name": "1 star", "count": 2700 },
       { "name": "2 star", "count": 5400 },
@@ -315,7 +314,7 @@
     "size": 46,
     "reviews": 230000,
     "ratingAvg": 4.6,
-    "downloads": "5M",
+    "downloads": 5000000,
     "ratings": [
       { "name": "1 star", "count": 2300 },
       { "name": "2 star", "count": 4600 },
@@ -333,25 +332,7 @@
     "size": 53,
     "reviews": 310000,
     "ratingAvg": 4.7,
-    "downloads": "4M",
-    "ratings": [
-      { "name": "1 star", "count": 3100 },
-      { "name": "2 star", "count": 6200 },
-      { "name": "3 star", "count": 15500 },
-      { "name": "4 star", "count": 93000 },
-      { "name": "5 star", "count": 208200 }
-    ]
-  },
-  {
-    "image": "https://goaltracker.com/assets/goal_icon.png",
-    "title": "GoalTracker - Set & Achieve Goals",
-    "companyName": "GoalTracker Inc.",
-    "id": 20,
-    "description": "GoalTracker helps you set, monitor, and achieve personal and professional goals with reminders and progress charts.",
-    "size": 50,
-    "reviews": 290000,
-    "ratingAvg": 4.5,
-    "downloads": "5M",
+    "downloads": 4000000,
     "ratings": [
       { "name": "1 star", "count": 2900 },
       { "name": "2 star", "count": 5800 },

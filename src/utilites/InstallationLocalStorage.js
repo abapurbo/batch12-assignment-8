@@ -23,4 +23,6 @@ const uninstall = (id) => {
     const currentApps = allInstallApps.filter(app => app.id !== parseInt(id))
     saveInstallApps(currentApps)
 }
-export { getStorageApps, addInstallApps ,uninstall}
+// sorted apps
+
+export { getStorageApps, addInstallApps, uninstall }
