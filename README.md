@@ -1,4 +1,4 @@
-# 📱 App Store Dashboard / Apps Explorer
+# 📱 HERO.IO Apps Store Explore
 
 ## Project Overview
 The purpose of this project is to create an **interactive and user-friendly App Store Dashboard**. Users can browse different apps, search, view detailed information, install/uninstall apps, and track app ratings. The project is built using **React.js**, **React Router**, **localStorage**, and **Recharts**.
