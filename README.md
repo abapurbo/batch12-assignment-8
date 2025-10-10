@@ -42,7 +42,7 @@ The purpose of this project is to create an **interactive and user-friendly App 
 ---
 
 ## 🔹 Tech Stack
-- **Frontend:** React.js, TailwindCSS  
+- **Frontend:** React.js, TailwindCSS,DaisyUi,JavaScript 
 - **Routing:** React Router v6  
 - **Charts:** Recharts  
 - **State & Storage:** React Context API, localStorage  
