@@ -24,7 +24,7 @@ export default function AuthContext({ children }) {
         });
     }
     const deleteApp = () => {
-        toast.success('Your App Successfyly  Uninstall!', {
+        toast.success('Your App Successfuly  Uninstall!', {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
