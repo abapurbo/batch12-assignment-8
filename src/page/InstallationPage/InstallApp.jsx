@@ -7,8 +7,8 @@ export default function InstallApp({ sortedApp }) {
     const { handleUinstallApp } = useContext(AppContext)
     return (
         <div>
-            <div className='bg-[#ffffff] p-4 shadow-lg rounded-xs flex justify-between items-center'>
-                <div className='flex items-start gap-5'>
+            <div className='bg-[#ffffff] p-4 shadow-lg rounded-xs flex flex-col gap-3 justify-between items-center'>
+                <div className='flex  items-start gap-5'>
                     <img className='w-26 h-26 rounded-xs' src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="apps" />
                     <div>
                         <h1 className='text-xl font-medium text-[#001931]'>{title}</h1>

@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router'
 export default function Navbar() {
     return (
         <div>
-            <div className="navbar fixed z-50 bg-base-100 shadow-sm px-10">
+            <div className="navbar fixed z-50 bg-base-100 shadow-sm lg:px-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -15,11 +15,11 @@ export default function Navbar() {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-[16px] font-medium">
                             <NavLink to={'/'} className={({isActive})=>isActive ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text font-semibold underline decoration-[#9F62F2] underline-offset-4':''}>Home</NavLink>
-                            <NavLink to={''} className={({isActive})=>isActive ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text font-semibold underline decoration-[#9F62F2] underline-offset-4':''}>Apps</NavLink>
-                            <NavLink to={''} className={({isActive})=>isActive ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text font-semibold underline decoration-[#9F62F2] underline-offset-4':''}>Installation</NavLink>
+                            <NavLink to={'/allApps'} className={({isActive})=>isActive ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text font-semibold underline decoration-[#9F62F2] underline-offset-4':''}>Apps</NavLink>
+                            <NavLink to={'/installation'} className={({isActive})=>isActive ? 'bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text font-semibold underline decoration-[#9F62F2] underline-offset-4':''}>Installation</NavLink>
                         </div>
                     </div>
-                    <Link to='/' className="flex items-center font-bold gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text"><img width='40px' height='40px' src="https://i.ibb.co.com/1Jdj50b3/logo.png" alt="logo" />HERO.IO</Link>
+                    <Link to='/' className="flex items-center font-bold gap-2 text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text"><img className='md:w-10 w-6 ' src="https://i.ibb.co.com/1Jdj50b3/logo.png" alt="logo" />HERO.IO</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <div className="menu menu-horizontal px-1 space-x-5 text-[16px] font-medium">
