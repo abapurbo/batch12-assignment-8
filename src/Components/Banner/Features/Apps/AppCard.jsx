@@ -11,9 +11,9 @@ export default function AppCard({ app }) {
         <div>
             <Link  to={`/details/${id}`} className="card cursor-pointer bg-base-100 w-[100%]  max-w-[346px] h-[350px]  shadow-xl p-3.5 transition hover:scale-95 duration-500">
                 <figure>
-                    <img className='rounded-[10px] w-[100%] h-[200px] max-h-[450px] object-container'
-                        src={app?.image}
-                        alt="Shoes" />
+                    <img className='rounded-[10px] w-[100%] h-[200px] max-h-[450px] object-center'
+                        src={image}
+                        alt={title}/>
                 </figure>
 
                 <div className='flex-1 mt-3'>

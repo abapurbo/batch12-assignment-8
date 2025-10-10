@@ -22,8 +22,8 @@ export default function Banner() {
         
             <div className='flex flex-col items-center mt-8'>
                 <div className='flex md:flex-row flex-col gap-4'>
-                    <Link to='https://play.google.com/store/games?hl=en' className='flex items-center text-xl flex-row font-semibold text-[#001931] border-1 px-2 gap-1 border-[#D2D2D2] rounded-[5px]'><img width='40px' height='40px' src="./src/assets/play-store.png" alt="play store" /><span>Google Play</span></Link>
-                    <Link to='https://developer.apple.com/app-store/marketing/guidelines/' className='flex items-center text-xl flex-row font-semibold text-[#001931] border-1 px-2 gap-3 border-[#D2D2D2] rounded-[5px]'><img width='30px' height='30px' src="./src/assets/app-store.png" alt="play store" /><span>Google Play</span></Link>
+                    <Link to='https://play.google.com/store/games?hl=en' className='flex items-center text-xl flex-row font-semibold text-[#001931] border-1 px-2 gap-1 border-[#D2D2D2] rounded-[5px]'><img width='40px' height='40px' src="https://i.ibb.co.com/s92Cm50K/play-store.png" alt="play store" /><span>Google Play</span></Link>
+                    <Link to='https://developer.apple.com/app-store/marketing/guidelines/' className='flex items-center text-xl flex-row font-semibold text-[#001931] border-1 px-2 gap-3 border-[#D2D2D2] rounded-[5px]'><img width='30px' height='30px' src="https://i.ibb.co.com/jZskYZv5/app-store.png" alt="play store" /><span>Google Play</span></Link>
                 </div>
             </div>
             <div className="mt-10 bg-[url('../src/assets/hero.png')] lg:bg-[length:600px] bg-[length:300px_auto]  lg:h-80 h-42  bg-no-repeat bg-center ">

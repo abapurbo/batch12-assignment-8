@@ -44,7 +44,7 @@ export default function AllApps() {
                     <div className='col-span-4 flex  w-[100%] items-center justify-center h-60'>
                         <div className='text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
                             className="w-20 h-20 animate-[spin_1s_linear_infinite]"
-                            src="../src/assets/logo.png"
+                            src="https://i.ibb.co.com/1Jdj50b3/logo.png"
                             alt="Loading..."
                         /><h1>Loading....</h1></div></div>
                     </div>

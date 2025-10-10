@@ -12,7 +12,7 @@ const router = createBrowserRouter([
       element: (
          <Suspense fallback={<div className='h-dvh text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
             className="w-20 h-20 animate-[spin_1s_linear_infinite]"
-            src="../src/assets/logo.png"
+            src="https://i.ibb.co.com/1Jdj50b3/logo.png"
             alt="Loading..."
          /><h1>Loading....</h1></div></div>}>
             <Root></Root>
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       errorElement: (
          <Suspense fallback={<div className='h-dvh text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
             className="w-20 h-20 animate-[spin_1s_linear_infinite]"
-            src="../src/assets/logo.png"
+            src="https://i.ibb.co.com/1Jdj50b3/logo.png"
             alt="Loading..."
          /><h1>Loading....</h1></div></div>}>
             <Errorpage></Errorpage>
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
                element: (
                   <Suspense fallback={<div className='h-dvh text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
                      className="w-20 h-20 animate-[spin_1s_linear_infinite]"
-                     src="../src/assets/logo.png"
+                     src="https://i.ibb.co.com/1Jdj50b3/logo.png"
                      alt="Loading..."
                   /><h1>Loading....</h1></div></div>}>
                      <Home></Home>
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
                element: (
                   <Suspense fallback={<div className='h-dvh text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
                      className="w-20 h-20 animate-[spin_1s_linear_infinite]"
-                     src="../src/assets/logo.png"
+                     src="https://i.ibb.co.com/1Jdj50b3/logo.png"
                      alt="Loading..."
                   /><h1>Loading....</h1></div></div>}>
                      <AllApps></AllApps>
@@ -58,7 +58,7 @@ const router = createBrowserRouter([
                element: (
                   <Suspense fallback={<div className='h-dvh text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
                      className="w-20 h-20 animate-[spin_1s_linear_infinite]"
-                     src="../src/assets/logo.png"
+                     src="https://i.ibb.co.com/1Jdj50b3/logo.png"
                      alt="Loading..."
                   /><h1>Loading....</h1></div></div>}>
                      <Installationpage></Installationpage>
@@ -71,7 +71,7 @@ const router = createBrowserRouter([
                element: (
                   <Suspense fallback={<div className='h-dvh text-3xl text-gray-400 font-semibold  flex flex-row gap-3 items-center justify-center '><div className="flex flex-row items-center"><img
                      className="w-20 h-20 animate-[spin_1s_linear_infinite]"
-                     src="../src/assets/logo.png"
+                     src="https://i.ibb.co.com/1Jdj50b3/logo.png"
                      alt="Loading..."
                   /><h1>Loading....</h1></div></div>}>
                      <Details></Details>

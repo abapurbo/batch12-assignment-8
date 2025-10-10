@@ -46,7 +46,7 @@ export default function Details() {
       <div>
         <div className='flex flex-col md:flex-row gap-10'>
           <div className='w-[330px] '>
-            <img className='w-[100%] h-[100%] object-container rounded-xl' src='https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp' alt="apps image" />
+            <img className='w-[100%] h-[100%] object-container rounded-xl' src={image} alt="apps image" />
           </div>
           <div className='flex-1'>
             <h1 className='text-[#001931] text-[32px] font-bold '>{title}</h1>
