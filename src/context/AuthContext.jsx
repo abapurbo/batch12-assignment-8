@@ -6,8 +6,10 @@ export const AppContext = createContext({});
 
 export default function AuthContext({ children }) {
     const localApps = getStorageApps()
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
+    const [installationLoading, setInstallationLoading] = useState(true)
     const [installApps, setInstallApps] = useState([...localApps])
+   
     // sucess toast 
     const notify = () => {
         toast.success('Your App Successfuly Installed!', {
@@ -55,13 +57,15 @@ export default function AuthContext({ children }) {
         installApps,
         handleUinstallApp,
         isLoading,
-        setIsLoading
+        setIsLoading,
+        installationLoading,
+        setInstallationLoading
     };
 
     return (
-            <AppContext.Provider value={authValue}>
-                {children}
-            </AppContext.Provider>
+        <AppContext.Provider value={authValue}>
+            {children}
+        </AppContext.Provider>
     );
 }
 

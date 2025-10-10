@@ -3,10 +3,10 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="bg-gradient-to-r from-[#001931] via-[#002b50] to-[#001931] text-white ">
-      <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto px-10   py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Column 1: Logo & Description */}
         <div>
-          <h2 className="text-3xl font-extrabold text-white">MyApp</h2>
+          <h2 className="text-3xl font-extrabold text-white">Hero.IO</h2>
           <p className="text-sm text-gray-400 mt-3 leading-relaxed">
             Empowering your digital life with simplicity, security, and speed.
           </p>

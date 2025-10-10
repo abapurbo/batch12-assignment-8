@@ -5,7 +5,6 @@ import { Link } from 'react-router';
 import { AppContext } from '../../context/AuthContext';
 export default function Home() {
       const [cards, setCards] = useState([]);
-      const {isLoading ,setIsLoading}=useContext(AppContext)
       useEffect(() => {
           const fetchData = async () => {
               try {
@@ -31,9 +30,7 @@ export default function Home() {
         <p className='text-[#627382] text-xl text-center'>Explore All Trending Apps on the Market developed by us</p>
         <div className='mt-10 max-w-[1400px] mx-auto px-10 py-10'>
          {
-          isLoading ?  <Apps cards={cards}></Apps>: <div className='h-20 flex items-center flex-col justify-center'>
-            <span className="loading loading-dots loading-xl"></span>
-          </div>
+          <Apps cards={cards}></Apps>
          }
           <div className='text-center my-10'>
             <Link to="/allApps" className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[#ffffff] py-3.5 px-[39px] rounded-[4px] font-semibold text-[16px] transition hover:scale-95 cursor-pointer duration-700 '>Show All</Link>

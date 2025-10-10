@@ -7,14 +7,11 @@ import { AppContext } from '../../../../context/AuthContext'
 export default function AllApps() {
     const apps = useLoaderData()
     const { isLoading, setIsLoading } = useContext(AppContext)
-    const [searchs, setSearch] = useState([])
-
+    const [searchs, setSearch] = useState([...apps])
     useEffect(() => {
-        if (apps) {
-            setIsLoading(true);
-            setSearch(apps);
+         
             setIsLoading(false);
-        }
+        
     }, [apps]);
 
     const handleSearchApps = (e) => {
