@@ -5,7 +5,7 @@ function Footer() {
     <footer className="bg-[#001931] text-white ">
       <div className="max-w-7xl mx-auto px-10   py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
-          <h2 className="text-3xl font-extrabold text-white flex items-center gap-2"><img src="../src/assets/logo.png" className='w-8' alt="" />HERO.IO</h2>
+          <h2 className="text-3xl font-extrabold text-white flex items-center gap-2"><img src="https://i.ibb.co.com/1Jdj50b3/logo.png" className='w-8' alt="" />HERO.IO</h2>
           <p className="text-sm text-gray-400 mt-3 leading-relaxed">
             Empowering your digital life with simplicity, security, and speed.
           </p>
