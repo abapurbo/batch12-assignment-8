@@ -14,7 +14,7 @@ export default function Errorpage() {
         <Navbar></Navbar>
       </div>
       <div className='bg-[#f9f9f9] max-w-[1400px] mx-auto  px-10 pt-28 pb-14 flex flex-col items-center justify-center'>
-        <img src="../src/assets/error-404.png" alt="error logo" />
+        <img src="https://i.ibb.co.com/nqzLyCXc/error-404.png" alt="error logo" />
         <div className='text-center'>
           <h1 className='text-[#001931] md:text-[48px] text-2xl font-semibold'>Oops, page not found!</h1>
           <p className='text-[#627382] md:text-xl text-[16px] '>The page you are looking for is not available.</p>
