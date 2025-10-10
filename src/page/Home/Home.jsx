@@ -26,9 +26,9 @@ export default function Home() {
         <Banner></Banner>
       </div>
       <div>
-        <h1 className='text-center text-[#001931] font-bold text-[46px]'>Trending Apps</h1>
-        <p className='text-[#627382] text-xl text-center'>Explore All Trending Apps on the Market developed by us</p>
-        <div className='mt-10 max-w-[1400px] mx-auto px-10 py-10'>
+        <h1 className='text-center text-[#001931] font-bold lg:text-[48px] text-3xl'>Trending Apps</h1>
+        <p className='text-[#627382] md:text-xl text-center'>Explore All Trending Apps on the Market developed by us</p>
+        <div className='md:mt-10  max-w-[1400px] mx-auto lg:px-10 px-6 py-10'>
          {
           <Apps cards={cards}></Apps>
          }

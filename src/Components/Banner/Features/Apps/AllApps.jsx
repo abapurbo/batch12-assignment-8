@@ -25,20 +25,20 @@ export default function AllApps() {
         }, 200);
     }
     return (
-        <div className='mx-auto max-w-[1400px] px-10 py-10'>
+        <div className='mx-auto max-w-[1400px] md:px-10 px-6 py-10'>
             <div>
-                <h1 className='text-[#001931] text-center text-[48px] font-bold'>Our All Applications</h1>
+                <h1 className='text-[#001931] text-center md:text-[48px] text-3xl font-bold'>Our All Applications</h1>
                 <p className='text-xl text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             <div className='flex justify-between items-center mt-10'>
-                <h1 className='text-2xl text-[#001931] font-semibold'>({apps?.length}) Apps Found</h1>
+                <h1 className='md:text-2xl text-[15px] text-[#001931] font-semibold'>({apps?.length}) Apps Found</h1>
 
-                <fieldset className="input focus-within:outline-0 border-gray-300">
+                <fieldset className="input w-50 focus-within:outline-0 border-gray-300">
                     <IoIosSearch className='text-2xl text-[#627382]' />
                     <input type="text" className='placeholder:text-[#07f2a7] text-black outline-none text-[16px]' onChange={handleSearchApps} placeholder="Search Your Apps" />
                 </fieldset>
             </div>
-            <div className='grid grid-cols-4 gap-6 mt-4'>
+            <div className='grid lg:grid-cols-4 grid-cols-1  gap-6 mt-4'>
 
                 {isLoading ? (
                     <div className='col-span-4 flex  w-[100%] items-center justify-center h-60'>
