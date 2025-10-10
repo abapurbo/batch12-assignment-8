@@ -55,7 +55,7 @@ export default function Installationpage() {
             ))
           ) : (
             <div className='h-40 flex justify-center items-center flex-col'>
-              <h1 className='text-4xl text-center font-semibold'>Not Found Apps</h1>
+              <h1 className='md:text-4xl text-2xl text-center font-semibold'>Not Found Your <br className='md:hidden'/>Install Apps</h1>
             </div>
           )}
         </div>

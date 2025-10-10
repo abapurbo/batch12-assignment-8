@@ -31,7 +31,7 @@ export default function Banner() {
             </div>
             <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  -mt-2 py-20 md:px-20 mb-10">
                 <h1 className='md:text-[46px] text-4xl font-bold text-[#ffffff] text-center '>Trusted by Millions, Built for You</h1>
-                <div className='text-[#ffffff] flex flex-col space-y-10 md:justify-around max-w-[1400px] mx-auto md:mt-10 mt-6'>
+                <div className='text-[#ffffff] flex flex-col md:flex-row space-y-10 md:justify-around max-w-[1400px] mx-auto md:mt-10 mt-6'>
                     <div className='text-center space-y-2'>
                         <h1 className='text-[16px]'>Total Downloads</h1>
                         <h1 className='text-[64px] font-extrabold '>29.6M</h1>
