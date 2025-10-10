@@ -42,7 +42,7 @@ export default function Details() {
   const { image, ratingAvg, ratings, description, downloads, title, companyName, reviews, size } = currentApp
 
   return (
-    <div className='max-[1400px] md:px-10 px-6 py-16 '>
+    <div className='max-w-[1400px] mx-auto   md:px-10 px-6 py-16 '>
       <div>
         <div className='flex flex-col md:flex-row gap-10'>
           <div className='w-[330px] '>
@@ -116,7 +116,7 @@ export default function Details() {
           </ResponsiveContainer>
         </div>
       </div>
-      <hr className='my-12 text-[#001931]' />
+      <hr className='my-12 text-[#001931] ' />
       <div className='my-10'>
         <h1 className='text-[#001931] font-semibold text-2xl'>Description</h1>
         <p className='text-xl text-[#627382] text-justify mt-4'>{description}</p>

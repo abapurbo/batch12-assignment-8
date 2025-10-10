@@ -13,9 +13,9 @@ export default function Banner() {
                 Apps
             </h1>
          
-                <p className="md:text-xl text-[#627382] text-center md:w-[960px] p\ w-auto mx-auto mt-4">
+                <p className="md:text-xl text-[#627382] text-center lg:w-[960px]   mx-auto mt-4">
                 At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
-               
+                 
                 Our goal is to turn your ideas into digital experiences that truly make an impact.
             </p>
            </div>
@@ -29,7 +29,7 @@ export default function Banner() {
             <div className="mt-10 bg-[url('../src/assets/hero.png')] lg:bg-[length:600px] bg-[length:300px_auto]  lg:h-80 h-42  bg-no-repeat bg-center ">
 
             </div>
-            <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  -mt-2 py-20 md:px-20 mb-10">
+            <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] w-[100%]  -mt-2 py-20 lg:px-20 md:px-10 mb-10">
                 <h1 className='md:text-[46px] text-4xl font-bold text-[#ffffff] text-center '>Trusted by Millions, Built for You</h1>
                 <div className='text-[#ffffff] flex flex-col md:flex-row space-y-10 md:justify-around max-w-[1400px] mx-auto md:mt-10 mt-6'>
                     <div className='text-center space-y-2'>
