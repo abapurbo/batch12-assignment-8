@@ -33,7 +33,7 @@ export default function Installationpage() {
 
       <div className='mt-6'>
         <div className='flex justify-between items-center'>
-          <h1 className='text-2xl text-[#001931] font-semibold'>
+          <h1 className='lg:text-2xl text-xl text-[#001931] font-semibold'>
             {sortedApps?.length} Apps Found
           </h1>
 
