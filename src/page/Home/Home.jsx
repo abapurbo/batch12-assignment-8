@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import Banner from '../../Components/Banner/Banner'
 import Apps from '../../Components/Banner/Features/Apps/Apps'
 import { Link } from 'react-router';
-import { AppContext } from '../../context/AuthContext';
 export default function Home() {
       const [cards, setCards] = useState([]);
       useEffect(() => {
@@ -12,7 +11,6 @@ export default function Home() {
                   const res = await fetch(url);
                   const data = await res.json();
                   setCards(data);
-                  setIsLoading(true)
               } catch (err) {
                   console.error('Failed to fetch apps:', err);
               }

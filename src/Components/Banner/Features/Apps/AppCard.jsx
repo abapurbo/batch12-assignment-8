@@ -6,7 +6,6 @@ import { AppContext } from '../../../../context/AuthContext'
 
 export default function AppCard({ app }) {
     const { id, image, title, downloads, ratingAvg } = app || {}
-    console.log(image)
     return (
         <div>
             <Link  to={`/details/${id}`} className="card cursor-pointer bg-base-100 w-[100%]  max-w-[346px] h-[350px]  shadow-xl p-3.5 transition hover:scale-95 duration-500">
